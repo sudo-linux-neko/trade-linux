@@ -1,0 +1,66 @@
+{
+  "strategy": "rsi2",
+  "symbol": "BTCUSDT",
+  "interval": "1d",
+  "windows": [
+    {
+      "window": 0,
+      "train_start": 1514764800000,
+      "train_end": 1562630400000,
+      "test_start": 1562716800000,
+      "test_end": 1583193600000,
+      "best_tag": "rsi2[x10>x65]_sma5-100_sl2_h30",
+      "train_sharpe": -0.5075604813634313,
+      "train_trades": 5,
+      "test_sharpe": 1.3269829173619259,
+      "test_return_pct": 0.9628098061901236,
+      "test_trades": 3,
+      "test_max_dd_pct": -0.3548617036432944
+    },
+    {
+      "window": 1,
+      "train_start": 1583280000000,
+      "train_end": 1631145600000,
+      "test_start": 1631232000000,
+      "test_end": 1651708800000,
+      "best_tag": "rsi2[x10>x65]_sma5-100_sl3.5_h30",
+      "train_sharpe": 0.6023866668331166,
+      "train_trades": 8,
+      "test_sharpe": -0.821674994208199,
+      "test_return_pct": -0.3240316007126598,
+      "test_trades": 1,
+      "test_max_dd_pct": -0.5898914504235298
+    },
+    {
+      "window": 2,
+      "train_start": 1651795200000,
+      "train_end": 1699660800000,
+      "test_start": 1699747200000,
+      "test_end": 1720224000000,
+      "best_tag": "rsi2[x5>x65]_sma5-200_sl3.5_h30",
+      "train_sharpe": 0.5408102730083881,
+      "train_trades": 4,
+      "test_sharpe": -0.7974191448883259,
+      "test_return_pct": -0.4052509793099124,
+      "test_trades": 2,
+      "test_max_dd_pct": -0.7290567670486747
+    },
+    {
+      "window": 3,
+      "train_start": 1720310400000,
+      "train_end": 1768176000000,
+      "test_start": 1768262400000,
+      "test_end": 1788739200000,
+      "best_tag": "rsi2[x5>x65]_sma5-100_sl2_h30",
+      "train_sharpe": 1.0573982660108017,
+      "train_trades": 6,
+      "test_sharpe": -1.7423663526666366,
+      "test_return_pct": -1.0447953275371624,
+      "test_trades": 1,
+      "test_max_dd_pct": -1.0836977905032685
+    }
+  ],
+  "avg_oos_sharpe": -0.5086193936003089,
+  "oos_hit_rate_pct": 25.0,
+  "total_oos_trades": 7
+}

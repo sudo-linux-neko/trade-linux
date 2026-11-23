@@ -1,0 +1,66 @@
+{
+  "strategy": "bbrev",
+  "symbol": "BTCUSDT",
+  "interval": "15m",
+  "windows": [
+    {
+      "window": 0,
+      "train_start": 1514764800000,
+      "train_end": 1562931000000,
+      "test_start": 1562931900000,
+      "test_end": 1583523000000,
+      "best_tag": "bb20x2_rsi<x30_bw100 0.15-0.85_sl3_h60",
+      "train_sharpe": -1.338331005530137,
+      "train_trades": 295,
+      "test_sharpe": -4.149245997412876,
+      "test_return_pct": -26.99091535535728,
+      "test_trades": 127,
+      "test_max_dd_pct": -28.464997542187298
+    },
+    {
+      "window": 1,
+      "train_start": 1583523900000,
+      "train_end": 1631487600000,
+      "test_start": 1631488500000,
+      "test_end": 1652011200000,
+      "best_tag": "bb20x2.5_rsi<x30_bw100 0.15-0.85_sl3_h60",
+      "train_sharpe": -2.7356980598436444,
+      "train_trades": 193,
+      "test_sharpe": -2.7909670612594373,
+      "test_return_pct": -18.20007428171817,
+      "test_trades": 108,
+      "test_max_dd_pct": -21.032472472992946
+    },
+    {
+      "window": 2,
+      "train_start": 1652012100000,
+      "train_end": 1699885800000,
+      "test_start": 1699886700000,
+      "test_end": 1720402200000,
+      "best_tag": "bb20x2.5_rsi<x30_bw100 0.15-0.85_sl2_h60",
+      "train_sharpe": -3.147814777325729,
+      "train_trades": 232,
+      "test_sharpe": -3.8333439773158244,
+      "test_return_pct": -22.37205764261506,
+      "test_trades": 88,
+      "test_max_dd_pct": -22.37205764261506
+    },
+    {
+      "window": 3,
+      "train_start": 1720403100000,
+      "train_end": 1768272300000,
+      "test_start": 1768273200000,
+      "test_end": 1788788700000,
+      "best_tag": "bb20x2.5_rsi<x30_bw100 0.15-0.85_sl3_h60",
+      "train_sharpe": -2.328037468949136,
+      "train_trades": 180,
+      "test_sharpe": -4.434139759483451,
+      "test_return_pct": -23.22047593124239,
+      "test_trades": 97,
+      "test_max_dd_pct": -23.579707542666316
+    }
+  ],
+  "avg_oos_sharpe": -3.801924198867897,
+  "oos_hit_rate_pct": 0.0,
+  "total_oos_trades": 420
+}
